@@ -1,0 +1,11 @@
+2025-02-28 23:54:05,028 - INFO - Starting EDA process...
+2025-02-28 23:54:05,553 - INFO - Data loaded successfully from merged_cleaned_data.csv. Shape: (289531, 10)
+2025-02-28 23:54:05,620 - INFO - Statistical Summary:
+                   count         mean          std       min       25%        50%        75%         max  skewness  kurtosis
+temperature_2m  289531.0    11.346059     8.095719  -10.4915    5.0085    10.8085    17.4085     37.7085  0.179755 -0.607154
+value           289531.0  1556.937606  1455.568629  168.0000  696.0000  1120.0000  1725.0000  10830.0000  2.404389  5.927580
+2025-02-28 23:54:32,257 - INFO - Time series analysis plot generated.
+2025-02-28 23:55:12,264 - INFO - Univariate analysis completed.
+2025-02-28 23:55:38,743 - INFO - Correlation analysis completed.
+2025-02-28 23:55:38,744 - INFO - EDA Completed Successfully!
+2025-02-28 23:55:38,751 - INFO - EDA process finished!

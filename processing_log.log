@@ -1,0 +1,19 @@
+2025-02-28 23:34:22,447 - INFO - Using 8 threads for processing.
+2025-02-28 23:34:22,447 - INFO - Starting data processing...
+2025-02-28 23:34:22,485 - INFO - Loaded combined_weather_data.csv with shape (29976, 2).
+2025-02-28 23:34:22,490 - INFO - Missing Values Report for Weather Data: temperature_2m    0.253536
+dtype: float64
+2025-02-28 23:34:22,493 - INFO - Missing values handled for Weather Data.
+2025-02-28 23:34:22,494 - INFO - Converted timestamp column to datetime in Weather Data.
+2025-02-28 23:34:22,506 - INFO - Removed 0 duplicate entries from Weather Data.
+2025-02-28 23:34:22,510 - INFO - Outliers identified in temperature_2m for Weather Data.
+2025-02-28 23:34:22,582 - INFO - Processed data saved: weather_data_processed.csv.
+2025-02-28 23:34:22,874 - INFO - Loaded combined_electricity_data.csv with shape (289586, 7).
+2025-02-28 23:34:22,944 - INFO - Missing Values Report for Electricity Data: Series([], dtype: float64)
+2025-02-28 23:34:23,012 - INFO - Missing values handled for Electricity Data.
+2025-02-28 23:34:23,013 - INFO - Converted timestamp column to datetime in Electricity Data.
+2025-02-28 23:34:23,259 - INFO - Removed 0 duplicate entries from Electricity Data.
+2025-02-28 23:34:23,272 - INFO - Outliers identified in value for Electricity Data.
+2025-02-28 23:34:24,328 - INFO - Processed data saved: electricity_data_processed.csv.
+2025-02-28 23:34:24,762 - ERROR - Error merging data: 'timestamp'
+2025-02-28 23:34:24,768 - INFO - Data processing complete.

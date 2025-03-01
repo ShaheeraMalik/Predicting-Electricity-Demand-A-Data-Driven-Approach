@@ -1,0 +1,57 @@
+2025-02-28 23:41:01,495 - INFO - Using 8 threads for parallel execution.
+2025-02-28 23:41:01,495 - INFO - Starting data processing pipeline.
+2025-02-28 23:41:01,521 - INFO - Loaded combined_weather_data.csv with shape (29976, 2).
+2025-02-28 23:41:01,526 - INFO - Missing Data in Weather: temperature_2m    0.253536
+dtype: float64
+2025-02-28 23:41:01,530 - INFO - Filled missing data in Weather.
+2025-02-28 23:41:01,531 - INFO - Converted timestamp format in Weather.
+2025-02-28 23:41:01,540 - INFO - Marked 20 outliers in temperature_2m of Weather.
+2025-02-28 23:41:01,541 - INFO - Feature engineering completed for Weather.
+2025-02-28 23:41:01,613 - INFO - Processed Weather saved as weather_cleaned.csv.
+2025-02-28 23:41:01,905 - INFO - Loaded combined_electricity_data.csv with shape (289586, 7).
+2025-02-28 23:41:01,980 - INFO - Missing Data in Electricity: Series([], dtype: float64)
+2025-02-28 23:41:02,044 - INFO - Filled missing data in Electricity.
+2025-02-28 23:41:02,044 - INFO - Converted timestamp format in Electricity.
+2025-02-28 23:41:02,224 - INFO - Marked 28501 outliers in value of Electricity.
+2025-02-28 23:41:02,224 - INFO - Feature engineering completed for Electricity.
+2025-02-28 23:41:03,459 - INFO - Processed Electricity saved as electricity_cleaned.csv.
+2025-02-28 23:41:03,872 - ERROR - Error merging datasets: 'timestamp'
+2025-02-28 23:41:03,878 - INFO - Data processing pipeline finished.
+2025-02-28 23:41:36,923 - INFO - Using 8 threads for parallel execution.
+2025-02-28 23:41:36,923 - INFO - Starting data processing pipeline.
+2025-02-28 23:41:36,949 - INFO - Loaded combined_weather_data.csv with shape (29976, 2).
+2025-02-28 23:41:36,953 - INFO - Missing Data in Weather: temperature_2m    0.253536
+dtype: float64
+2025-02-28 23:41:36,956 - INFO - Filled missing data in Weather.
+2025-02-28 23:41:36,957 - INFO - Converted timestamp format in Weather.
+2025-02-28 23:41:36,971 - INFO - Marked 20 outliers in temperature_2m of Weather.
+2025-02-28 23:41:36,971 - INFO - Feature engineering completed for Weather.
+2025-02-28 23:41:37,049 - INFO - Processed Weather saved as weather_cleaned.csv.
+2025-02-28 23:41:37,329 - INFO - Loaded combined_electricity_data.csv with shape (289586, 7).
+2025-02-28 23:41:37,394 - INFO - Missing Data in Electricity: Series([], dtype: float64)
+2025-02-28 23:41:37,461 - INFO - Filled missing data in Electricity.
+2025-02-28 23:41:37,461 - INFO - Converted timestamp format in Electricity.
+2025-02-28 23:41:37,590 - INFO - Marked 28501 outliers in value of Electricity.
+2025-02-28 23:41:37,591 - INFO - Feature engineering completed for Electricity.
+2025-02-28 23:41:38,660 - INFO - Processed Electricity saved as electricity_cleaned.csv.
+2025-02-28 23:41:39,157 - ERROR - Error merging datasets: You are trying to merge on datetime64[ns, UTC] and datetime64[ns] columns for key 'date'. If you wish to proceed you should use pd.concat
+2025-02-28 23:41:39,169 - INFO - Data processing pipeline finished.
+2025-02-28 23:43:02,793 - INFO - Using 8 threads for parallel execution.
+2025-02-28 23:43:02,793 - INFO - Starting data processing pipeline.
+2025-02-28 23:43:02,822 - INFO - Loaded combined_weather_data.csv with shape (29976, 2).
+2025-02-28 23:43:02,827 - INFO - Missing Data in Weather: temperature_2m    0.253536
+dtype: float64
+2025-02-28 23:43:02,832 - INFO - Filled missing data in Weather.
+2025-02-28 23:43:02,833 - INFO - Converted timestamp format in Weather.
+2025-02-28 23:43:02,845 - INFO - Marked 20 outliers in temperature_2m of Weather.
+2025-02-28 23:43:02,846 - INFO - Feature engineering completed for Weather.
+2025-02-28 23:43:02,921 - INFO - Processed Weather saved as weather_cleaned.csv.
+2025-02-28 23:43:03,214 - INFO - Loaded combined_electricity_data.csv with shape (289586, 7).
+2025-02-28 23:43:03,281 - INFO - Missing Data in Electricity: Series([], dtype: float64)
+2025-02-28 23:43:03,347 - INFO - Filled missing data in Electricity.
+2025-02-28 23:43:03,348 - INFO - Converted timestamp format in Electricity.
+2025-02-28 23:43:03,481 - INFO - Marked 28501 outliers in value of Electricity.
+2025-02-28 23:43:03,482 - INFO - Feature engineering completed for Electricity.
+2025-02-28 23:43:04,531 - INFO - Processed Electricity saved as electricity_cleaned.csv.
+2025-02-28 23:43:06,931 - INFO - Merged cleaned data saved as merged_cleaned_data.csv.
+2025-02-28 23:43:06,942 - INFO - Data processing pipeline finished.
